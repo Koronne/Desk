@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha384-..." crossorigin="anonymous">
+</head>
+<body>
+    <table width="100%" border="0">
+        <tr>
+            <td width="20%" valign="top">
+                <!-- Barra de navegación -->
+                <ul style="list-style-type: none; padding: 0;">
+                    <li class="selected"><i class="fas fa-home"></i> <a href="Hola.html">Inicio</a></li>
+                    <li><i class="fas fa-user-plus"></i> <a href="Registro.html">Regístrate ahora</a></li>
+                    <li><i class="fas fa-search"></i> <a href="AcercaDelCurso.html">Acerca del Curso</a></li>
+                </ul>
+            </td>
+            <td width="80%" valign="top">
+                <!-- Contenido principal con la imagen -->
+                
+                <h1>Registro</h1>
+                <hr>
+                <!-- Tabla de registro -->
+            
+                <table border="1">
+                    <tr>
+                        <td>
+                            <label for="nombre">Nombre:</label>
+                        </td>
+                        <td>
+                            <input type="text" id="nombre" name="nombre">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="apellido">Apellido:</label>
+                        </td>
+                        <td>
+                            <input type="text" id="apellido" name="apellido">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="correo">Correo electrónico:</label>
+                        </td>
+                        <td>
+                            <input type="email" id="correo" name="correo">
+                        </td>
+                    </tr>
+                    <!-- Sección de comentarios -->
+                    <tr>
+                        <td colspan="2">
+                            <label for="comentarios">Comentarios:</label><br>
+                            <textarea id="comentarios" name="comentarios" rows="4" cols="50">Contenido del Comentario</textarea>
+                        </td>
+                    </tr>
+                    <!-- Botón de registro -->
+                    <tr>
+                        <td colspan="2" align="center">
+                            <a href="mailto:correo@ejemplo.com?subject=Asunto del correo&body=Cuerpo del mensaje"><button type="submit" >Enviar Solicitud</button></a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
